@@ -1,0 +1,23 @@
+{
+  "functions": [
+    {
+      "name": "greeting",
+      "args": [
+        "name"
+      ],
+      "returns": null,
+      "start": 1,
+      "end": 2
+    },
+    {
+      "name": "addition",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 4,
+      "end": 5
+    }
+  ]
+}

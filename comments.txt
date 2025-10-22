@@ -1,0 +1,2 @@
+# greeting function: Takes a name as input and returns it.
+# addition function: Takes two numbers as input and returns their sum.
