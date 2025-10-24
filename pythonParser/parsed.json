@@ -18,6 +18,16 @@
       "returns": null,
       "start": 4,
       "end": 5
+    },
+    {
+      "name": "subtraction",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 7,
+      "end": 8
     }
   ]
 }

@@ -1,0 +1,3 @@
+# greeting: Displays a greeting with the provided name.
+# addition: Adds two numbers.
+# subtraction: Subtracts two numbers.

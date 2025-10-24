@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  parser:
+    build: ./pythonParser
+    networks: [micro_net]
+
+  commenter:
+    build: ./AICommenter
+    networks: [micro_net]
+
+  inserter:
+    build: ./commentInserter
+    networks: [micro_net]
+
+networks:
+  micro_net:
+    driver: bridge
