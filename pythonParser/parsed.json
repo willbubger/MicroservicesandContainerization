@@ -1,33 +1,1093 @@
 {
   "functions": [
     {
-      "name": "greeting",
+      "functionName": "greet",
       "args": [
         "name"
       ],
       "returns": null,
-      "start": 1,
-      "end": 2
-    },
-    {
-      "name": "addition",
-      "args": [
-        "a",
-        "b"
-      ],
-      "returns": null,
-      "start": 4,
-      "end": 5
-    },
-    {
-      "name": "subtraction",
-      "args": [
-        "a",
-        "b"
-      ],
-      "returns": null,
       "start": 7,
       "end": 8
+    },
+    {
+      "functionName": "add",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 10,
+      "end": 11
+    },
+    {
+      "functionName": "subtract",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 13,
+      "end": 14
+    },
+    {
+      "functionName": "multiply",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 16,
+      "end": 17
+    },
+    {
+      "functionName": "divide",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 19,
+      "end": 22
+    },
+    {
+      "functionName": "power",
+      "args": [
+        "base",
+        "exp"
+      ],
+      "returns": null,
+      "start": 24,
+      "end": 25
+    },
+    {
+      "functionName": "sqrt",
+      "args": [
+        "num"
+      ],
+      "returns": null,
+      "start": 27,
+      "end": 28
+    },
+    {
+      "functionName": "factorial",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 30,
+      "end": 33
+    },
+    {
+      "functionName": "average",
+      "args": [
+        "numbers"
+      ],
+      "returns": null,
+      "start": 35,
+      "end": 36
+    },
+    {
+      "functionName": "median",
+      "args": [
+        "numbers"
+      ],
+      "returns": null,
+      "start": 38,
+      "end": 39
+    },
+    {
+      "functionName": "mode",
+      "args": [
+        "numbers"
+      ],
+      "returns": null,
+      "start": 41,
+      "end": 42
+    },
+    {
+      "functionName": "variance",
+      "args": [
+        "numbers"
+      ],
+      "returns": null,
+      "start": 44,
+      "end": 45
+    },
+    {
+      "functionName": "stdev",
+      "args": [
+        "numbers"
+      ],
+      "returns": null,
+      "start": 47,
+      "end": 48
+    },
+    {
+      "functionName": "generate_random_list",
+      "args": [
+        "n",
+        "start",
+        "end"
+      ],
+      "returns": null,
+      "start": 50,
+      "end": 51
+    },
+    {
+      "functionName": "sort_list",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 53,
+      "end": 54
+    },
+    {
+      "functionName": "reverse_list",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 56,
+      "end": 57
+    },
+    {
+      "functionName": "unique_elements",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 59,
+      "end": 60
+    },
+    {
+      "functionName": "count_occurrences",
+      "args": [
+        "lst",
+        "value"
+      ],
+      "returns": null,
+      "start": 62,
+      "end": 63
+    },
+    {
+      "functionName": "merge_lists",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 65,
+      "end": 66
+    },
+    {
+      "functionName": "flatten_list",
+      "args": [
+        "list_of_lists"
+      ],
+      "returns": null,
+      "start": 68,
+      "end": 69
+    },
+    {
+      "functionName": "list_sum",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 71,
+      "end": 72
+    },
+    {
+      "functionName": "list_product",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 74,
+      "end": 78
+    },
+    {
+      "functionName": "list_difference",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 80,
+      "end": 81
+    },
+    {
+      "functionName": "list_intersection",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 83,
+      "end": 84
+    },
+    {
+      "functionName": "list_union",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 86,
+      "end": 87
+    },
+    {
+      "functionName": "even_numbers",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 89,
+      "end": 90
+    },
+    {
+      "functionName": "odd_numbers",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 92,
+      "end": 93
+    },
+    {
+      "functionName": "square_list",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 95,
+      "end": 96
+    },
+    {
+      "functionName": "cube_list",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 98,
+      "end": 99
+    },
+    {
+      "functionName": "filter_positive",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 101,
+      "end": 102
+    },
+    {
+      "functionName": "filter_negative",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 104,
+      "end": 105
+    },
+    {
+      "functionName": "find_max",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 107,
+      "end": 108
+    },
+    {
+      "functionName": "find_min",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 110,
+      "end": 111
+    },
+    {
+      "functionName": "sum_of_squares",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 113,
+      "end": 114
+    },
+    {
+      "functionName": "sum_of_cubes",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 116,
+      "end": 117
+    },
+    {
+      "functionName": "cumulative_sum",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 119,
+      "end": 125
+    },
+    {
+      "functionName": "factorial_list",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 127,
+      "end": 128
+    },
+    {
+      "functionName": "is_prime",
+      "args": [
+        "num"
+      ],
+      "returns": null,
+      "start": 130,
+      "end": 136
+    },
+    {
+      "functionName": "primes_in_range",
+      "args": [
+        "start",
+        "end"
+      ],
+      "returns": null,
+      "start": 138,
+      "end": 139
+    },
+    {
+      "functionName": "fibonacci",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 141,
+      "end": 149
+    },
+    {
+      "functionName": "palindrome",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 151,
+      "end": 153
+    },
+    {
+      "functionName": "count_vowels",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 155,
+      "end": 157
+    },
+    {
+      "functionName": "count_consonants",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 159,
+      "end": 161
+    },
+    {
+      "functionName": "reverse_string",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 163,
+      "end": 164
+    },
+    {
+      "functionName": "is_anagram",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 166,
+      "end": 167
+    },
+    {
+      "functionName": "capitalize_words",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 169,
+      "end": 170
+    },
+    {
+      "functionName": "word_count",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 172,
+      "end": 173
+    },
+    {
+      "functionName": "char_count",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 175,
+      "end": 176
+    },
+    {
+      "functionName": "remove_spaces",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 178,
+      "end": 179
+    },
+    {
+      "functionName": "to_upper",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 181,
+      "end": 182
+    },
+    {
+      "functionName": "to_lower",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 184,
+      "end": 185
+    },
+    {
+      "functionName": "alternate_case",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 187,
+      "end": 188
+    },
+    {
+      "functionName": "replace_vowels",
+      "args": [
+        "s",
+        "char"
+      ],
+      "returns": null,
+      "start": 190,
+      "end": 192
+    },
+    {
+      "functionName": "random_string",
+      "args": [
+        "length"
+      ],
+      "returns": null,
+      "start": 194,
+      "end": 196
+    },
+    {
+      "functionName": "join_strings",
+      "args": [
+        "lst",
+        "sep"
+      ],
+      "returns": null,
+      "start": 198,
+      "end": 199
+    },
+    {
+      "functionName": "split_string",
+      "args": [
+        "s",
+        "sep"
+      ],
+      "returns": null,
+      "start": 201,
+      "end": 202
+    },
+    {
+      "functionName": "count_substring",
+      "args": [
+        "s",
+        "sub"
+      ],
+      "returns": null,
+      "start": 204,
+      "end": 205
+    },
+    {
+      "functionName": "starts_with",
+      "args": [
+        "s",
+        "prefix"
+      ],
+      "returns": null,
+      "start": 207,
+      "end": 208
+    },
+    {
+      "functionName": "ends_with",
+      "args": [
+        "s",
+        "suffix"
+      ],
+      "returns": null,
+      "start": 210,
+      "end": 211
+    },
+    {
+      "functionName": "is_digit",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 213,
+      "end": 214
+    },
+    {
+      "functionName": "is_alpha",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 216,
+      "end": 217
+    },
+    {
+      "functionName": "is_alnum",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 219,
+      "end": 220
+    },
+    {
+      "functionName": "string_to_list",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 222,
+      "end": 223
+    },
+    {
+      "functionName": "list_to_string",
+      "args": [
+        "lst"
+      ],
+      "returns": null,
+      "start": 225,
+      "end": 226
+    },
+    {
+      "functionName": "sum_matrix",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 228,
+      "end": 229
+    },
+    {
+      "functionName": "transpose",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 231,
+      "end": 232
+    },
+    {
+      "functionName": "diagonal_sum",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 234,
+      "end": 235
+    },
+    {
+      "functionName": "upper_triangle",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 237,
+      "end": 239
+    },
+    {
+      "functionName": "lower_triangle",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 241,
+      "end": 243
+    },
+    {
+      "functionName": "identity_matrix",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 245,
+      "end": 246
+    },
+    {
+      "functionName": "scalar_multiply",
+      "args": [
+        "matrix",
+        "scalar"
+      ],
+      "returns": null,
+      "start": 248,
+      "end": 249
+    },
+    {
+      "functionName": "matrix_add",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 251,
+      "end": 252
+    },
+    {
+      "functionName": "matrix_subtract",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 254,
+      "end": 255
+    },
+    {
+      "functionName": "matrix_multiply",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 257,
+      "end": 263
+    },
+    {
+      "functionName": "trace",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 265,
+      "end": 266
+    },
+    {
+      "functionName": "flatten_matrix",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 268,
+      "end": 269
+    },
+    {
+      "functionName": "reshape_flat",
+      "args": [
+        "flat",
+        "rows",
+        "cols"
+      ],
+      "returns": null,
+      "start": 271,
+      "end": 272
+    },
+    {
+      "functionName": "make_grid",
+      "args": [
+        "n",
+        "val"
+      ],
+      "returns": null,
+      "start": 274,
+      "end": 275
+    },
+    {
+      "functionName": "border_grid",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 277,
+      "end": 283
+    },
+    {
+      "functionName": "random_matrix",
+      "args": [
+        "n",
+        "m",
+        "start",
+        "end"
+      ],
+      "returns": null,
+      "start": 285,
+      "end": 286
+    },
+    {
+      "functionName": "pretty_print_matrix",
+      "args": [
+        "matrix"
+      ],
+      "returns": null,
+      "start": 288,
+      "end": 290
+    },
+    {
+      "functionName": "identity_check",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 292,
+      "end": 293
+    },
+    {
+      "functionName": "equality_check",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 295,
+      "end": 296
+    },
+    {
+      "functionName": "greater_than",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 298,
+      "end": 299
+    },
+    {
+      "functionName": "less_than",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 301,
+      "end": 302
+    },
+    {
+      "functionName": "range_sum",
+      "args": [
+        "start",
+        "end"
+      ],
+      "returns": null,
+      "start": 304,
+      "end": 305
+    },
+    {
+      "functionName": "range_product",
+      "args": [
+        "start",
+        "end"
+      ],
+      "returns": null,
+      "start": 307,
+      "end": 311
+    },
+    {
+      "functionName": "absolute_difference",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 313,
+      "end": 314
+    },
+    {
+      "functionName": "hypotenuse",
+      "args": [
+        "a",
+        "b"
+      ],
+      "returns": null,
+      "start": 316,
+      "end": 317
+    },
+    {
+      "functionName": "area_circle",
+      "args": [
+        "r"
+      ],
+      "returns": null,
+      "start": 319,
+      "end": 320
+    },
+    {
+      "functionName": "area_square",
+      "args": [
+        "side"
+      ],
+      "returns": null,
+      "start": 322,
+      "end": 323
+    },
+    {
+      "functionName": "area_rectangle",
+      "args": [
+        "length",
+        "width"
+      ],
+      "returns": null,
+      "start": 325,
+      "end": 326
+    },
+    {
+      "functionName": "area_triangle",
+      "args": [
+        "base",
+        "height"
+      ],
+      "returns": null,
+      "start": 328,
+      "end": 329
+    },
+    {
+      "functionName": "perimeter_rectangle",
+      "args": [
+        "length",
+        "width"
+      ],
+      "returns": null,
+      "start": 331,
+      "end": 332
+    },
+    {
+      "functionName": "perimeter_square",
+      "args": [
+        "side"
+      ],
+      "returns": null,
+      "start": 334,
+      "end": 335
+    },
+    {
+      "functionName": "circumference_circle",
+      "args": [
+        "r"
+      ],
+      "returns": null,
+      "start": 337,
+      "end": 338
+    },
+    {
+      "functionName": "simple_interest",
+      "args": [
+        "p",
+        "r",
+        "t"
+      ],
+      "returns": null,
+      "start": 340,
+      "end": 341
+    },
+    {
+      "functionName": "compound_interest",
+      "args": [
+        "p",
+        "r",
+        "t"
+      ],
+      "returns": null,
+      "start": 343,
+      "end": 344
+    },
+    {
+      "functionName": "celsius_to_fahrenheit",
+      "args": [
+        "c"
+      ],
+      "returns": null,
+      "start": 346,
+      "end": 347
+    },
+    {
+      "functionName": "fahrenheit_to_celsius",
+      "args": [
+        "f"
+      ],
+      "returns": null,
+      "start": 349,
+      "end": 350
+    },
+    {
+      "functionName": "km_to_miles",
+      "args": [
+        "km"
+      ],
+      "returns": null,
+      "start": 352,
+      "end": 353
+    },
+    {
+      "functionName": "miles_to_km",
+      "args": [
+        "miles"
+      ],
+      "returns": null,
+      "start": 355,
+      "end": 356
+    },
+    {
+      "functionName": "seconds_to_minutes",
+      "args": [
+        "s"
+      ],
+      "returns": null,
+      "start": 358,
+      "end": 359
+    },
+    {
+      "functionName": "minutes_to_hours",
+      "args": [
+        "m"
+      ],
+      "returns": null,
+      "start": 361,
+      "end": 362
+    },
+    {
+      "functionName": "hours_to_days",
+      "args": [
+        "h"
+      ],
+      "returns": null,
+      "start": 364,
+      "end": 365
+    },
+    {
+      "functionName": "days_to_weeks",
+      "args": [
+        "d"
+      ],
+      "returns": null,
+      "start": 367,
+      "end": 368
+    },
+    {
+      "functionName": "leap_year",
+      "args": [
+        "year"
+      ],
+      "returns": null,
+      "start": 370,
+      "end": 371
+    },
+    {
+      "functionName": "is_even",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 373,
+      "end": 374
+    },
+    {
+      "functionName": "is_odd",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 376,
+      "end": 377
+    },
+    {
+      "functionName": "sign",
+      "args": [
+        "n"
+      ],
+      "returns": null,
+      "start": 379,
+      "end": 382
+    },
+    {
+      "functionName": "clamp",
+      "args": [
+        "n",
+        "low",
+        "high"
+      ],
+      "returns": null,
+      "start": 384,
+      "end": 385
+    },
+    {
+      "functionName": "distance_2d",
+      "args": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "returns": null,
+      "start": 387,
+      "end": 388
+    },
+    {
+      "functionName": "midpoint_2d",
+      "args": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "returns": null,
+      "start": 390,
+      "end": 391
+    },
+    {
+      "functionName": "slope",
+      "args": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "returns": null,
+      "start": 393,
+      "end": 396
+    },
+    {
+      "functionName": "main",
+      "args": [],
+      "returns": null,
+      "start": 402,
+      "end": 414
     }
   ]
 }

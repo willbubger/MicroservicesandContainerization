@@ -2,8 +2,8 @@ import socket
 
 # Set up a TCP server to receive comments
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#server.bind(("0.0.0.0", 7777))
-server.bind(("localhost", 7777))
+server.bind(("0.0.0.0", 7777))
+#server.bind(("localhost", 7777))
 server.listen(1)
 
 client, add = server.accept()
