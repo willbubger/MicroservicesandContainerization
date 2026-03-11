@@ -4,154 +4,154 @@ import statistics
 
 # Utility Functions ----------------------------------------------------------
 
-# This is the function: "greet"
+# Returns a greeting message to the user
 def greet(name):
     return f"Hello, {name}!"
 
-# This is the function: "add"
+# Returns the sum of two numbers
 def add(a, b):
     return a + b
 
-# This is the function: "subtract"
+# Returns the difference between two numbers
 def subtract(a, b):
     return a - b
 
-# This is the function: "multiply"
+# Returns the product of two numbers
 def multiply(a, b):
     return a * b
 
-# This is the function: "divide"
+# Returns the quotient of two numbers
 def divide(a, b):
     if b == 0:
         return None
     return a / b
 
-# This is the function: "power"
+# Returns a number raised to a given power
 def power(base, exp):
     return base ** exp
 
-# This is the function: "sqrt"
+# Returns the square root of a number
 def sqrt(num):
     return math.sqrt(num)
 
-# This is the function: "factorial"
+# Returns the factorial of a non-negative integer
 def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n - 1)
 
-# This is the function: "average"
+# Returns the average of a list of numbers
 def average(numbers):
     return sum(numbers) / len(numbers)
 
-# This is the function: "median"
+# Returns the median value of a list of numbers
 def median(numbers):
     return statistics.median(numbers)
 
-# This is the function: "mode"
+# Returns the most frequently occurring value in a list
 def mode(numbers):
     return statistics.mode(numbers)
 
-# This is the function: "variance"
+# Returns the variance of a list of numbers
 def variance(numbers):
     return statistics.variance(numbers)
 
-# This is the function: "stdev"
+# Returns the standard deviation of a list of numbers
 def stdev(numbers):
     return statistics.stdev(numbers)
 
-# This is the function: "generate_random_list"
+# Generates a list of random numbers with a given size and range
 def generate_random_list(n, start=0, end=100):
     return [random.randint(start, end) for _ in range(n)]
 
-# This is the function: "sort_list"
+# Returns a sorted copy of the given list
 def sort_list(lst):
     return sorted(lst)
 
-# This is the function: "reverse_list"
+# Returns the list in reverse order
 def reverse_list(lst):
     return lst[::-1]
 
-# This is the function: "unique_elements"
+# Returns a list with duplicate elements removed
 def unique_elements(lst):
     return list(set(lst))
 
-# This is the function: "count_occurrences"
+# Counts the occurrences of a specific element in a list
 def count_occurrences(lst, value):
     return lst.count(value)
 
-# This is the function: "merge_lists"
+# Merges two or more lists into a single list
 def merge_lists(a, b):
     return a + b
 
-# This is the function: "flatten_list"
+# Flattens a nested list into a single-level list
 def flatten_list(list_of_lists):
     return [item for sublist in list_of_lists for item in sublist]
 
-# This is the function: "list_sum"
+# Returns the sum of all elements in a list
 def list_sum(lst):
     return sum(lst)
 
-# This is the function: "list_product"
+# Returns the product of all elements in a list
 def list_product(lst):
     result = 1
     for num in lst:
         result *= num
     return result
 
-# This is the function: "list_difference"
+# Returns elements in the first list but not in the second
 def list_difference(a, b):
     return [x for x in a if x not in b]
 
-# This is the function: "list_intersection"
+# Returns common elements between two lists
 def list_intersection(a, b):
     return [x for x in a if x in b]
 
-# This is the function: "list_union"
+# Returns all unique elements from two lists combined
 def list_union(a, b):
     return list(set(a + b))
 
-# This is the function: "even_numbers"
+# Returns a list of even numbers from the input
 def even_numbers(lst):
     return [x for x in lst if x % 2 == 0]
 
-# This is the function: "odd_numbers"
+# Returns a list of odd numbers from the input
 def odd_numbers(lst):
     return [x for x in lst if x % 2 != 0]
 
-# This is the function: "square_list"
+# Returns a list with each element squared
 def square_list(lst):
     return [x ** 2 for x in lst]
 
-# This is the function: "cube_list"
+# Returns a list with each element cubed
 def cube_list(lst):
     return [x ** 3 for x in lst]
 
-# This is the function: "filter_positive"
+# Filters and returns only positive numbers from a list
 def filter_positive(lst):
     return [x for x in lst if x > 0]
 
-# This is the function: "filter_negative"
+# Filters and returns only negative numbers from a list
 def filter_negative(lst):
     return [x for x in lst if x < 0]
 
-# This is the function: "find_max"
+# Returns the maximum value in a list
 def find_max(lst):
     return max(lst)
 
-# This is the function: "find_min"
+# Returns the minimum value in a list
 def find_min(lst):
     return min(lst)
 
-# This is the function: "sum_of_squares"
+# Returns the sum of squares of all elements in a list
 def sum_of_squares(lst):
     return sum(x ** 2 for x in lst)
 
-# This is the function: "sum_of_cubes"
+# Returns the sum of cubes of all elements in a list
 def sum_of_cubes(lst):
     return sum(x ** 3 for x in lst)
 
-# This is the function: "cumulative_sum"
+# Returns a list of cumulative sums
 def cumulative_sum(lst):
     total = 0
     result = []
@@ -160,11 +160,11 @@ def cumulative_sum(lst):
         result.append(total)
     return result
 
-# This is the function: "factorial_list"
+# Returns a list of factorials for each element
 def factorial_list(lst):
     return [math.factorial(x) for x in lst if x >= 0]
 
-# This is the function: "is_prime"
+# Checks whether a given number is prime
 def is_prime(num):
     if num < 2:
         return False
@@ -173,11 +173,11 @@ def is_prime(num):
             return False
     return True
 
-# This is the function: "primes_in_range"
+# Returns all prime numbers within a given range
 def primes_in_range(start, end):
     return [n for n in range(start, end + 1) if is_prime(n)]
 
-# This is the function: "fibonacci"
+# Returns the first n numbers in the Fibonacci sequence
 def fibonacci(n):
     if n <= 0:
         return []
@@ -188,146 +188,146 @@ def fibonacci(n):
         fib.append(fib[-1] + fib[-2])
     return fib
 
-# This is the function: "palindrome"
+# Checks whether a string or number is a palindrome
 def palindrome(s):
     s = str(s)
     return s == s[::-1]
 
-# This is the function: "count_vowels"
+# Counts the number of vowels in a string
 def count_vowels(s):
     vowels = 'aeiouAEIOU'
     return sum(1 for ch in s if ch in vowels)
 
-# This is the function: "count_consonants"
+# Counts the number of consonants in a string
 def count_consonants(s):
     vowels = 'aeiouAEIOU'
     return sum(1 for ch in s if ch.isalpha() and ch not in vowels)
 
-# This is the function: "reverse_string"
+# Returns the reversed version of a string
 def reverse_string(s):
     return s[::-1]
 
-# This is the function: "is_anagram"
+# Checks whether two strings are anagrams of each other
 def is_anagram(a, b):
     return sorted(a) == sorted(b)
 
-# This is the function: "capitalize_words"
+# Capitalizes the first letter of each word in a string
 def capitalize_words(s):
     return " ".join(w.capitalize() for w in s.split())
 
-# This is the function: "word_count"
+# Returns the number of words in a string
 def word_count(s):
     return len(s.split())
 
-# This is the function: "char_count"
+# Returns the number of characters in a string
 def char_count(s):
     return len(s)
 
-# This is the function: "remove_spaces"
+# Removes all spaces from a string
 def remove_spaces(s):
     return s.replace(" ", "")
 
-# This is the function: "to_upper"
+# Converts a string to uppercase
 def to_upper(s):
     return s.upper()
 
-# This is the function: "to_lower"
+# Converts a string to lowercase
 def to_lower(s):
     return s.lower()
 
-# This is the function: "alternate_case"
+# Alternates the case of each character in a string
 def alternate_case(s):
     return "".join(ch.upper() if i % 2 == 0 else ch.lower() for i, ch in enumerate(s))
 
-# This is the function: "replace_vowels"
+# Replaces all vowels in a string with a specified character
 def replace_vowels(s, char='*'):
     vowels = 'aeiouAEIOU'
     return ''.join(char if ch in vowels else ch for ch in s)
 
-# This is the function: "random_string"
+# Generates a random string of a given length
 def random_string(length):
     letters = 'abcdefghijklmnopqrstuvwxyz'
     return ''.join(random.choice(letters) for _ in range(length))
 
-# This is the function: "join_strings"
+# Joins a list of strings with a specified delimiter
 def join_strings(lst, sep=", "):
     return sep.join(lst)
 
-# This is the function: "split_string"
+# Splits a string by a specified delimiter
 def split_string(s, sep=","):
     return s.split(sep)
 
-# This is the function: "count_substring"
+# Counts occurrences of a substring within a string
 def count_substring(s, sub):
     return s.count(sub)
 
-# This is the function: "starts_with"
+# Checks whether a string starts with a given prefix
 def starts_with(s, prefix):
     return s.startswith(prefix)
 
-# This is the function: "ends_with"
+# Checks whether a string ends with a given suffix
 def ends_with(s, suffix):
     return s.endswith(suffix)
 
-# This is the function: "is_digit"
+# Checks whether a string contains only digits
 def is_digit(s):
     return s.isdigit()
 
-# This is the function: "is_alpha"
+# Checks whether a string contains only alphabetic characters
 def is_alpha(s):
     return s.isalpha()
 
-# This is the function: "is_alnum"
+# Checks whether a string contains only alphanumeric characters
 def is_alnum(s):
     return s.isalnum()
 
-# This is the function: "string_to_list"
+# Converts a string into a list of characters
 def string_to_list(s):
     return list(s)
 
-# This is the function: "list_to_string"
+# Joins a list of elements into a single string
 def list_to_string(lst):
     return "".join(lst)
 
-# This is the function: "sum_matrix"
+# Returns the sum of all elements in a matrix
 def sum_matrix(matrix):
     return sum(sum(row) for row in matrix)
 
-# This is the function: "transpose"
+# Returns the transpose of a matrix
 def transpose(matrix):
     return [list(row) for row in zip(*matrix)]
 
-# This is the function: "diagonal_sum"
+# Returns the sum of diagonal elements in a square matrix
 def diagonal_sum(matrix):
     return sum(matrix[i][i] for i in range(len(matrix)))
 
-# This is the function: "upper_triangle"
+# Returns the upper triangular portion of a matrix
 def upper_triangle(matrix):
     n = len(matrix)
     return [[matrix[i][j] if j >= i else 0 for j in range(n)] for i in range(n)]
 
-# This is the function: "lower_triangle"
+# Returns the lower triangular portion of a matrix
 def lower_triangle(matrix):
     n = len(matrix)
     return [[matrix[i][j] if j <= i else 0 for j in range(n)] for i in range(n)]
 
-# This is the function: "identity_matrix"
+# Creates an identity matrix of a given size
 def identity_matrix(n):
     return [[1 if i == j else 0 for j in range(n)] for i in range(n)]
 
-# This is the function: "scalar_multiply"
+# Multiplies every element of a matrix by a scalar value
 def scalar_multiply(matrix, scalar):
     return [[x * scalar for x in row] for row in matrix]
 
-# This is the function: "matrix_add"
+# Returns the element-wise sum of two matrices
 def matrix_add(a, b):
     return [[a[i][j] + b[i][j] for j in range(len(a[0]))] for i in range(len(a))]
 
-# This is the function: "matrix_subtract"
+# Returns the element-wise difference of two matrices
 def matrix_subtract(a, b):
     return [[a[i][j] - b[i][j] for j in range(len(a[0]))] for i in range(len(a))]
 
-# This is the function: "matrix_multiply"
+# Returns the product of two matrices using matrix multiplication
 def matrix_multiply(a, b):
     result = [[0 for _ in range(len(b[0]))] for _ in range(len(a))]
     for i in range(len(a)):
@@ -336,23 +336,23 @@ def matrix_multiply(a, b):
                 result[i][j] += a[i][k] * b[k][j]
     return result
 
-# This is the function: "trace"
+# Returns the trace (sum of diagonal elements) of a square matrix
 def trace(matrix):
     return sum(matrix[i][i] for i in range(len(matrix)))
 
-# This is the function: "flatten_matrix"
+# Flattens a 2D matrix into a 1D list
 def flatten_matrix(matrix):
     return [x for row in matrix for x in row]
 
-# This is the function: "reshape_flat"
+# Reshapes a flat list into a matrix with given dimensions
 def reshape_flat(flat, rows, cols):
     return [flat[i*cols:(i+1)*cols] for i in range(rows)]
 
-# This is the function: "make_grid"
+# Creates a grid of specified rows and columns filled with a value
 def make_grid(n, val=0):
     return [[val for _ in range(n)] for _ in range(n)]
 
-# This is the function: "border_grid"
+# Creates a grid with a border of one value and interior of another
 def border_grid(n):
     grid = make_grid(n)
     for i in range(n):
@@ -361,149 +361,149 @@ def border_grid(n):
                 grid[i][j] = 1
     return grid
 
-# This is the function: "random_matrix"
+# Generates a matrix filled with random numbers
 def random_matrix(n, m, start=0, end=9):
     return [[random.randint(start, end) for _ in range(m)] for _ in range(n)]
 
-# This is the function: "pretty_print_matrix"
+# Prints a matrix in a formatted, readable layout
 def pretty_print_matrix(matrix):
     for row in matrix:
         print(" ".join(map(str, row)))
 
-# This is the function: "identity_check"
+# Checks whether a given matrix is an identity matrix
 def identity_check(a, b):
     return a is b
 
-# This is the function: "equality_check"
+# Checks whether two values or objects are equal
 def equality_check(a, b):
     return a == b
 
-# This is the function: "greater_than"
+# Checks whether the first value is greater than the second
 def greater_than(a, b):
     return a > b
 
-# This is the function: "less_than"
+# Checks whether the first value is less than the second
 def less_than(a, b):
     return a < b
 
-# This is the function: "range_sum"
+# Returns the sum of all integers in a given range
 def range_sum(start, end):
     return sum(range(start, end + 1))
 
-# This is the function: "range_product"
+# Returns the product of all integers in a given range
 def range_product(start, end):
     result = 1
     for i in range(start, end + 1):
         result *= i
     return result
 
-# This is the function: "absolute_difference"
+# Returns the absolute difference between two numbers
 def absolute_difference(a, b):
     return abs(a - b)
 
-# This is the function: "hypotenuse"
+# Calculates the hypotenuse of a right triangle given two sides
 def hypotenuse(a, b):
     return math.sqrt(a**2 + b**2)
 
-# This is the function: "area_circle"
+# Calculates the area of a circle given its radius
 def area_circle(r):
     return math.pi * r * r
 
-# This is the function: "area_square"
+# Calculates the area of a square given its side length
 def area_square(side):
     return side * side
 
-# This is the function: "area_rectangle"
+# Calculates the area of a rectangle given width and height
 def area_rectangle(length, width):
     return length * width
 
-# This is the function: "area_triangle"
+# Calculates the area of a triangle given base and height
 def area_triangle(base, height):
     return 0.5 * base * height
 
-# This is the function: "perimeter_rectangle"
+# Calculates the perimeter of a rectangle given width and height
 def perimeter_rectangle(length, width):
     return 2 * (length + width)
 
-# This is the function: "perimeter_square"
+# Calculates the perimeter of a square given its side length
 def perimeter_square(side):
     return 4 * side
 
-# This is the function: "circumference_circle"
+# Calculates the circumference of a circle given its radius
 def circumference_circle(r):
     return 2 * math.pi * r
 
-# This is the function: "simple_interest"
+# Calculates simple interest given principal, rate, and time
 def simple_interest(p, r, t):
     return (p * r * t) / 100
 
-# This is the function: "compound_interest"
+# Calculates compound interest given principal, rate, time, and periods
 def compound_interest(p, r, t):
     return p * ((1 + r/100)**t) - p
 
-# This is the function: "celsius_to_fahrenheit"
+# Converts a temperature from Celsius to Fahrenheit
 def celsius_to_fahrenheit(c):
     return (c * 9/5) + 32
 
-# This is the function: "fahrenheit_to_celsius"
+# Converts a temperature from Fahrenheit to Celsius
 def fahrenheit_to_celsius(f):
     return (f - 32) * 5/9
 
-# This is the function: "km_to_miles"
+# Converts a distance from kilometers to miles
 def km_to_miles(km):
     return km * 0.621371
 
-# This is the function: "miles_to_km"
+# Converts a distance from miles to kilometers
 def miles_to_km(miles):
     return miles / 0.621371
 
-# This is the function: "seconds_to_minutes"
+# Converts seconds to minutes
 def seconds_to_minutes(s):
     return s / 60
 
-# This is the function: "minutes_to_hours"
+# Converts minutes to hours
 def minutes_to_hours(m):
     return m / 60
 
-# This is the function: "hours_to_days"
+# Converts hours to days
 def hours_to_days(h):
     return h / 24
 
-# This is the function: "days_to_weeks"
+# Converts days to weeks
 def days_to_weeks(d):
     return d / 7
 
-# This is the function: "leap_year"
+# Checks whether a given year is a leap year
 def leap_year(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 
-# This is the function: "is_even"
+# Checks whether a number is even
 def is_even(n):
     return n % 2 == 0
 
-# This is the function: "is_odd"
+# Checks whether a number is odd
 def is_odd(n):
     return n % 2 != 0
 
-# This is the function: "sign"
+# Returns the sign of a number: -1, 0, or 1
 def sign(n):
     if n > 0: return 1
     if n < 0: return -1
     return 0
 
-# This is the function: "clamp"
+# Clamps a value to be within a specified minimum and maximum range
 def clamp(n, low, high):
     return max(low, min(n, high))
 
-# This is the function: "distance_2d"
+# Calculates the Euclidean distance between two 2D points
 def distance_2d(x1, y1, x2, y2):
     return math.sqrt((x2-x1)**2 + (y2-y1)**2)
 
-# This is the function: "midpoint_2d"
+# Returns the midpoint between two 2D points
 def midpoint_2d(x1, y1, x2, y2):
     return ((x1+x2)/2, (y1+y2)/2)
 
-# This is the function: "slope"
+# Calculates the slope between two 2D points
 def slope(x1, y1, x2, y2):
     if x2 == x1:
         return None
@@ -513,7 +513,7 @@ def slope(x1, y1, x2, y2):
 # DRIVER CODE (just to hit 500 lines)
 # ---------------------------------------------------------------------------
 
-# This is the function: "main"
+# Main entry point of the program
 def main():
     nums = generate_random_list(10, 1, 50)
     print("Numbers:", nums)

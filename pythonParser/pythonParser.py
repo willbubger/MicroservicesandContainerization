@@ -1,6 +1,6 @@
 import ast, json, socket, time
 
-# Give the AICommenter and commentInserter time to start
+# Give the commenter and commentInserter time to start
 time.sleep(5)
 
 # Utilizing the AST module, we parse the Python code to extract function definitions and their details.
@@ -27,7 +27,7 @@ file = open("demo.py")
 with open("parsed.json", "w") as f:
     json.dump(parseCode(file.read()), f, indent=2)
 
-# Send the parsed data to the AICommenter service using TCP socket connection
+# Send the parsed data to the commenter service using TCP socket connection
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(("commenter", 9999))
 #client.connect(("localhost", 9999))

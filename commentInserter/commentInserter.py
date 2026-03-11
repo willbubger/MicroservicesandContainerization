@@ -12,7 +12,6 @@ comments = client.recv(65536)
 
 # Split the received comments into a list
 comments = list(comments.decode().splitlines())
-print(comments)
 
 # Read the original Python file
 with open("demo.py", "r") as file:
@@ -25,7 +24,7 @@ for line in data:
         output.append(comments.pop(0) + "\n")
     output.append(line)
 
-print(output)
+print("demoCommented.py created!")
 
 # Write the modified code with comments to a new file
 with open("demoCommented.py", "w") as finalOutput:

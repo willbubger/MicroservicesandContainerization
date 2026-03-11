@@ -6,12 +6,16 @@ services:
     networks: [micro_net]
 
   commenter:
-    build: ./AICommenter
+    build: commenter
     networks: [micro_net]
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
 
   inserter:
     build: ./commentInserter
     networks: [micro_net]
+    volumes:
+    - ./commentInserter:/app
 
 networks:
   micro_net:
