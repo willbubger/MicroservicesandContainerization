@@ -11,7 +11,7 @@ client, add = server.accept()
 
 parsedData = client.recv(65536)
 parsedData = list(parsedData.decode().splitlines())
-print(parsedData)
+#print(parsedData)
 
 # comments = []
 client = anthropic.Anthropic()
@@ -23,16 +23,17 @@ for lines in parsedData:
         function_names.append(lines[22:-1].strip())
 
 prompt = f"""
-You are documenting Python code.
+You are generating documentation comments for Python functions.
 
-For each function name below, write ONE single-line Python comment.
+Return EXACTLY one comment for each function.
 
 Rules:
-- Each comment must start with "# "
-- Output exactly one comment per function
-- Keep comments under 100 characters
-- No explanations
-- Return comments in the SAME ORDER as the functions
+- Output exactly {len(function_names)} lines
+- Each line must start with "# "
+- Do not include numbering
+- Do not include explanations
+- Do not include blank lines
+- Comments must be in the SAME ORDER as the functions
 
 Functions:
 {function_names}
